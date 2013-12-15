@@ -60,7 +60,7 @@ function setIHeardText(textToDisplay) {
 
 function getActionFromWit(inputText) {
         $.ajax({
-          url: "https://api.wit.ai/message?access_token=B4DSVDKSF6OFNZDFVX6DUG5T22ZOYZD6&c=1&explain=true&q="+encodeURI(inputText),
+          url: "https://api.wit.ai/message?access_token=***************************&c=1&explain=true&q="+encodeURI(inputText),
           type: "GET",
           cache: false,
           dataType: "jsonp",
